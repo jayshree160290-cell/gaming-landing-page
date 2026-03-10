@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Free Game Coins Generator</title>
+
+<style>
+body{
+font-family: Arial;
+background:#111;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+button{
+background:#00ff88;
+border:none;
+padding:15px;
+font-size:18px;
+cursor:pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>FREE Game Coins Generator</h1>
+
+<p>Enter your username and generate coins instantly.</p>
+
+<input type="text" placeholder="Enter Username"><br><br>
+
+<select>
+<option>1000 Coins</option>
+<option>5000 Coins</option>
+<option>10000 Coins</option>
+</select>
+
+<br><br>
+
+<button onclick="showLocker()">Generate Coins</button>
+
+<script>
+function showLocker(){
+document.getElementById("locker").style.display="block";
+}
+</script>
+
+<!-- OGAds Locker -->
+<div id="locker" style="display:none;">
+<script type="text/javascript" src="YOUR_OGADS_LOCKER_LINK"></script>
+</div>
+
+</body>
+</html>
